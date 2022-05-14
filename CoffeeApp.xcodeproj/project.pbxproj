@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9100F335282ED943004885D2 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100F334282ED942004885D2 /* Carousel.swift */; };
+		9100F337282EDDC5004885D2 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100F336282EDDC5004885D2 /* Coffee.swift */; };
 		9114CFD2282C266200C888F1 /* CoffeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114CFD1282C266200C888F1 /* CoffeeAppApp.swift */; };
 		9114CFD4282C266200C888F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114CFD3282C266200C888F1 /* ContentView.swift */; };
 		9114CFD6282C266400C888F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9114CFD5282C266400C888F1 /* Assets.xcassets */; };
 		9114CFD9282C266400C888F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9114CFD8282C266400C888F1 /* Preview Assets.xcassets */; };
+		9114CFE3282C2D9300C888F1 /* CoffeeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9100F334282ED942004885D2 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		9100F336282EDDC5004885D2 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		9114CFCE282C266200C888F1 /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9114CFD1282C266200C888F1 /* CoffeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppApp.swift; sourceTree = "<group>"; };
 		9114CFD3282C266200C888F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9114CFD5282C266400C888F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9114CFD8282C266400C888F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				9114CFD1282C266200C888F1 /* CoffeeAppApp.swift */,
-				9114CFD3282C266200C888F1 /* ContentView.swift */,
+				9114CFDF282C2D4D00C888F1 /* View */,
+				9114CFE0282C2D5300C888F1 /* Model */,
+				9114CFE1282C2D5B00C888F1 /* ViewModel */,
 				9114CFD5282C266400C888F1 /* Assets.xcassets */,
 				9114CFD7282C266400C888F1 /* Preview Content */,
 			);
@@ -65,6 +73,31 @@
 				9114CFD8282C266400C888F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9114CFDF282C2D4D00C888F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9114CFD3282C266200C888F1 /* ContentView.swift */,
+				9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */,
+				9100F334282ED942004885D2 /* Carousel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9114CFE0282C2D5300C888F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9100F336282EDDC5004885D2 /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9114CFE1282C2D5B00C888F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9114CFD4282C266200C888F1 /* ContentView.swift in Sources */,
+				9114CFE3282C2D9300C888F1 /* CoffeeHeader.swift in Sources */,
 				9114CFD2282C266200C888F1 /* CoffeeAppApp.swift in Sources */,
+				9100F335282ED943004885D2 /* Carousel.swift in Sources */,
+				9100F337282EDDC5004885D2 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

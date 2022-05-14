@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Coffee: Identifiable {
+    var id = UUID().uuidString
+    var coffeeImage: String
+}
