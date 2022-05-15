@@ -14,6 +14,8 @@
 		9114CFD6282C266400C888F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9114CFD5282C266400C888F1 /* Assets.xcassets */; };
 		9114CFD9282C266400C888F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9114CFD8282C266400C888F1 /* Preview Assets.xcassets */; };
 		9114CFE3282C2D9300C888F1 /* CoffeeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */; };
+		91CFD0AA28317B02002F270C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFD0A928317B02002F270C /* HomeView.swift */; };
+		91CFD0AD2831841E002F270C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFD0AC2831841E002F270C /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9114CFD5282C266400C888F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9114CFD8282C266400C888F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeHeader.swift; sourceTree = "<group>"; };
+		91CFD0A928317B02002F270C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91CFD0AC2831841E002F270C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				9114CFDF282C2D4D00C888F1 /* View */,
 				9114CFE0282C2D5300C888F1 /* Model */,
 				9114CFE1282C2D5B00C888F1 /* ViewModel */,
+				91CFD0AB283183FD002F270C /* Utility */,
 				9114CFD5282C266400C888F1 /* Assets.xcassets */,
 				9114CFD7282C266400C888F1 /* Preview Content */,
 			);
@@ -81,6 +86,7 @@
 				9114CFD3282C266200C888F1 /* ContentView.swift */,
 				9114CFE2282C2D9300C888F1 /* CoffeeHeader.swift */,
 				9100F334282ED942004885D2 /* Carousel.swift */,
+				91CFD0A928317B02002F270C /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +104,14 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91CFD0AB283183FD002F270C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				91CFD0AC2831841E002F270C /* Utility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CFD0AD2831841E002F270C /* Utility.swift in Sources */,
 				9114CFD4282C266200C888F1 /* ContentView.swift in Sources */,
 				9114CFE3282C2D9300C888F1 /* CoffeeHeader.swift in Sources */,
 				9114CFD2282C266200C888F1 /* CoffeeAppApp.swift in Sources */,
+				91CFD0AA28317B02002F270C /* HomeView.swift in Sources */,
 				9100F335282ED943004885D2 /* Carousel.swift in Sources */,
 				9100F337282EDDC5004885D2 /* Coffee.swift in Sources */,
 			);
